@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1F4232180506A400399336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1F4231180506A400399336 /* UIKit.framework */; };
+		CE1F4234180506A400399336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1F4233180506A400399336 /* Foundation.framework */; };
+		CE1F4236180506A400399336 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1F4235180506A400399336 /* CoreGraphics.framework */; };
+		CE1F423C180506A400399336 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE1F423A180506A400399336 /* InfoPlist.strings */; };
+		CE1F423E180506A400399336 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1F423D180506A400399336 /* main.m */; };
+		CE1F4242180506A400399336 /* TVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1F4241180506A400399336 /* TVAppDelegate.m */; };
+		CE1F4244180506A400399336 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1F4243180506A400399336 /* Default.png */; };
+		CE1F4246180506A400399336 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1F4245180506A400399336 /* Default@2x.png */; };
+		CE1F4248180506A400399336 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1F4247180506A400399336 /* Default-568h@2x.png */; };
+		CE1F424B180506A400399336 /* TVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1F424A180506A400399336 /* TVViewController.m */; };
+		CE1F424E180506A400399336 /* TVViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1F424C180506A400399336 /* TVViewController.xib */; };
+		CE1F4256180506A400399336 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1F4255180506A400399336 /* SenTestingKit.framework */; };
+		CE1F4257180506A400399336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1F4231180506A400399336 /* UIKit.framework */; };
+		CE1F4258180506A400399336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1F4233180506A400399336 /* Foundation.framework */; };
+		CE1F4260180506A400399336 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE1F425E180506A400399336 /* InfoPlist.strings */; };
+		CE1F4263180506A400399336 /* TravisDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1F4262180506A400399336 /* TravisDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE1F4259180506A400399336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE1F4226180506A400399336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE1F422D180506A400399336;
+			remoteInfo = TravisDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE1F422E180506A400399336 /* TravisDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravisDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1F4231180506A400399336 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE1F4233180506A400399336 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE1F4235180506A400399336 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE1F4239180506A400399336 /* TravisDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravisDemo-Info.plist"; sourceTree = "<group>"; };
+		CE1F423B180506A400399336 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE1F423D180506A400399336 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE1F423F180506A400399336 /* TravisDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TravisDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CE1F4240180506A400399336 /* TVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVAppDelegate.h; sourceTree = "<group>"; };
+		CE1F4241180506A400399336 /* TVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVAppDelegate.m; sourceTree = "<group>"; };
+		CE1F4243180506A400399336 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CE1F4245180506A400399336 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CE1F4247180506A400399336 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE1F4249180506A400399336 /* TVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVViewController.h; sourceTree = "<group>"; };
+		CE1F424A180506A400399336 /* TVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVViewController.m; sourceTree = "<group>"; };
+		CE1F424D180506A400399336 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TVViewController.xib; sourceTree = "<group>"; };
+		CE1F4254180506A400399336 /* TravisDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1F4255180506A400399336 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE1F425D180506A400399336 /* TravisDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravisDemoTests-Info.plist"; sourceTree = "<group>"; };
+		CE1F425F180506A400399336 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE1F4261180506A400399336 /* TravisDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TravisDemoTests.h; sourceTree = "<group>"; };
+		CE1F4262180506A400399336 /* TravisDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravisDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE1F422B180506A400399336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1F4232180506A400399336 /* UIKit.framework in Frameworks */,
+				CE1F4234180506A400399336 /* Foundation.framework in Frameworks */,
+				CE1F4236180506A400399336 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1F4250180506A400399336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1F4256180506A400399336 /* SenTestingKit.framework in Frameworks */,
+				CE1F4257180506A400399336 /* UIKit.framework in Frameworks */,
+				CE1F4258180506A400399336 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE1F4225180506A400399336 = {
+			isa = PBXGroup;
+			children = (
+				CE1F4237180506A400399336 /* TravisDemo */,
+				CE1F425B180506A400399336 /* TravisDemoTests */,
+				CE1F4230180506A400399336 /* Frameworks */,
+				CE1F422F180506A400399336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE1F422F180506A400399336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE1F422E180506A400399336 /* TravisDemo.app */,
+				CE1F4254180506A400399336 /* TravisDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE1F4230180506A400399336 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE1F4231180506A400399336 /* UIKit.framework */,
+				CE1F4233180506A400399336 /* Foundation.framework */,
+				CE1F4235180506A400399336 /* CoreGraphics.framework */,
+				CE1F4255180506A400399336 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE1F4237180506A400399336 /* TravisDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CE1F4240180506A400399336 /* TVAppDelegate.h */,
+				CE1F4241180506A400399336 /* TVAppDelegate.m */,
+				CE1F4249180506A400399336 /* TVViewController.h */,
+				CE1F424A180506A400399336 /* TVViewController.m */,
+				CE1F424C180506A400399336 /* TVViewController.xib */,
+				CE1F4238180506A400399336 /* Supporting Files */,
+			);
+			path = TravisDemo;
+			sourceTree = "<group>";
+		};
+		CE1F4238180506A400399336 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE1F4239180506A400399336 /* TravisDemo-Info.plist */,
+				CE1F423A180506A400399336 /* InfoPlist.strings */,
+				CE1F423D180506A400399336 /* main.m */,
+				CE1F423F180506A400399336 /* TravisDemo-Prefix.pch */,
+				CE1F4243180506A400399336 /* Default.png */,
+				CE1F4245180506A400399336 /* Default@2x.png */,
+				CE1F4247180506A400399336 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE1F425B180506A400399336 /* TravisDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE1F4261180506A400399336 /* TravisDemoTests.h */,
+				CE1F4262180506A400399336 /* TravisDemoTests.m */,
+				CE1F425C180506A400399336 /* Supporting Files */,
+			);
+			path = TravisDemoTests;
+			sourceTree = "<group>";
+		};
+		CE1F425C180506A400399336 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE1F425D180506A400399336 /* TravisDemoTests-Info.plist */,
+				CE1F425E180506A400399336 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE1F422D180506A400399336 /* TravisDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1F4266180506A400399336 /* Build configuration list for PBXNativeTarget "TravisDemo" */;
+			buildPhases = (
+				CE1F422A180506A400399336 /* Sources */,
+				CE1F422B180506A400399336 /* Frameworks */,
+				CE1F422C180506A400399336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravisDemo;
+			productName = TravisDemo;
+			productReference = CE1F422E180506A400399336 /* TravisDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE1F4253180506A400399336 /* TravisDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1F4269180506A400399336 /* Build configuration list for PBXNativeTarget "TravisDemoTests" */;
+			buildPhases = (
+				CE1F424F180506A400399336 /* Sources */,
+				CE1F4250180506A400399336 /* Frameworks */,
+				CE1F4251180506A400399336 /* Resources */,
+				CE1F4252180506A400399336 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE1F425A180506A400399336 /* PBXTargetDependency */,
+			);
+			name = TravisDemoTests;
+			productName = TravisDemoTests;
+			productReference = CE1F4254180506A400399336 /* TravisDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE1F4226180506A400399336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TV;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mulodo Inc";
+			};
+			buildConfigurationList = CE1F4229180506A400399336 /* Build configuration list for PBXProject "TravisDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE1F4225180506A400399336;
+			productRefGroup = CE1F422F180506A400399336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE1F422D180506A400399336 /* TravisDemo */,
+				CE1F4253180506A400399336 /* TravisDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE1F422C180506A400399336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1F423C180506A400399336 /* InfoPlist.strings in Resources */,
+				CE1F4244180506A400399336 /* Default.png in Resources */,
+				CE1F4246180506A400399336 /* Default@2x.png in Resources */,
+				CE1F4248180506A400399336 /* Default-568h@2x.png in Resources */,
+				CE1F424E180506A400399336 /* TVViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1F4251180506A400399336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1F4260180506A400399336 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE1F4252180506A400399336 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE1F422A180506A400399336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1F423E180506A400399336 /* main.m in Sources */,
+				CE1F4242180506A400399336 /* TVAppDelegate.m in Sources */,
+				CE1F424B180506A400399336 /* TVViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1F424F180506A400399336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1F4263180506A400399336 /* TravisDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE1F425A180506A400399336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE1F422D180506A400399336 /* TravisDemo */;
+			targetProxy = CE1F4259180506A400399336 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE1F423A180506A400399336 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1F423B180506A400399336 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE1F424C180506A400399336 /* TVViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1F424D180506A400399336 /* en */,
+			);
+			name = TVViewController.xib;
+			sourceTree = "<group>";
+		};
+		CE1F425E180506A400399336 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1F425F180506A400399336 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE1F4264180506A400399336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE1F4265180506A400399336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE1F4267180506A400399336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravisDemo/TravisDemo-Prefix.pch";
+				INFOPLIST_FILE = "TravisDemo/TravisDemo-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE1F4268180506A400399336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravisDemo/TravisDemo-Prefix.pch";
+				INFOPLIST_FILE = "TravisDemo/TravisDemo-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE1F426A180506A400399336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TravisDemo.app/TravisDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravisDemo/TravisDemo-Prefix.pch";
+				INFOPLIST_FILE = "TravisDemoTests/TravisDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CE1F426B180506A400399336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TravisDemo.app/TravisDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravisDemo/TravisDemo-Prefix.pch";
+				INFOPLIST_FILE = "TravisDemoTests/TravisDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE1F4229180506A400399336 /* Build configuration list for PBXProject "TravisDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1F4264180506A400399336 /* Debug */,
+				CE1F4265180506A400399336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1F4266180506A400399336 /* Build configuration list for PBXNativeTarget "TravisDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1F4267180506A400399336 /* Debug */,
+				CE1F4268180506A400399336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE1F4269180506A400399336 /* Build configuration list for PBXNativeTarget "TravisDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1F426A180506A400399336 /* Debug */,
+				CE1F426B180506A400399336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE1F4226180506A400399336 /* Project object */;
+}
