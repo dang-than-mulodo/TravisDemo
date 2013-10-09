@@ -1,0 +1,7 @@
+language: objective-c
+#before_install: ./install_dependencies.sh
+
+# build via xcodetest
+#script: ./build_and_run_unit_tests.sh DemoUnitTest DemoUnitTestTests
+
+script: travis/script.sh
